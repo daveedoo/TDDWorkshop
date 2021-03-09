@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDWorkshop", "TDDWorkshop\TDDWorkshop.csproj", "{1BC05B8A-F917-4B5B-988B-2D6874F56A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDWorkshop.Test", "TDDWorkshop.Test\TDDWorkshop.Test.csproj", "{0FAD52D2-270A-4E6D-8175-E88B13911C9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BC05B8A-F917-4B5B-988B-2D6874F56A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC05B8A-F917-4B5B-988B-2D6874F56A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC05B8A-F917-4B5B-988B-2D6874F56A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC05B8A-F917-4B5B-988B-2D6874F56A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FAD52D2-270A-4E6D-8175-E88B13911C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FAD52D2-270A-4E6D-8175-E88B13911C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FAD52D2-270A-4E6D-8175-E88B13911C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FAD52D2-270A-4E6D-8175-E88B13911C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD485729-301B-4A84-BB86-BD0F447DE529}
+	EndGlobalSection
+EndGlobal
