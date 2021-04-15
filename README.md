@@ -1,2 +1,2 @@
-# maksymowskid-TDDWorkshop
+# TDDWorkshop
 TDD Workshop from Software Engineering subject.
