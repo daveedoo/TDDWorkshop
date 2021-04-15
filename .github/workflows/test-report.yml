@@ -26,7 +26,7 @@ jobs:
         uses: b3b00/coverlet-action@1.1.1
         with:
           # output filename
-          output: report.json # default is ./lcov.info
+          output: coverage.json # default is ./lcov.info
           # output format : lcov, json, opencover, corbertura, temacity (see coverlet documentation)
           outputFormat: json # default is lcov
           # assemblies, namespances exclusions (see coverlet documentation)
