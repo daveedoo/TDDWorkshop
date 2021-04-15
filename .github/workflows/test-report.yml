@@ -26,9 +26,9 @@ jobs:
         uses: b3b00/coverlet-action@1.1.1
         with:
           # output filename
-          output: coverage.json # default is ./lcov.info
+          output: coverage.xml # default is ./lcov.info
           # output format : lcov, json, opencover, corbertura, temacity (see coverlet documentation)
-          outputFormat: json # default is lcov
+          outputFormat: cobertura # default is lcov
           # assemblies, namespances exclusions (see coverlet documentation)
           # excludes: # optional
           # path to unit test project from repository root
@@ -41,4 +41,4 @@ jobs:
           # Project token for the Codacy project you want to send coverage information
           project-token: 0b97e4e9807848e48b4b992103f31f17 
           # Optional comma separated list of coverage reports to send to Codacy
-          coverage-reports: TDDWorkshop.Test/coverage.json # optional, default is 
+          coverage-reports: TDDWorkshop.Test/coverage.xml
