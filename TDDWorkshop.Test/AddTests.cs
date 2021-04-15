@@ -118,22 +118,22 @@ namespace TDDWorkshop.Test
             Assert.Equal(sum, result);
         }
 
-        [Fact]
-        public void MultiCharDelimiter_CanBeDefinedOnTheFirstLine()
-        {
-            // arrange
-            string delimiter = "###";
-            int nr1 = 432;
-            int nr2 = 98;
-            string numbers = "//[" + delimiter + "]" + "\n" + nr1.ToString() + delimiter + nr2.ToString();
+        //[Fact]
+        //public void MultiCharDelimiter_CanBeDefinedOnTheFirstLine()
+        //{
+        //    // arrange
+        //    string delimiter = "###";
+        //    int nr1 = 432;
+        //    int nr2 = 98;
+        //    string numbers = "//[" + delimiter + "]" + "\n" + nr1.ToString() + delimiter + nr2.ToString();
 
-            // act
-            int result = sut.Add(numbers);
+        //    // act
+        //    int result = sut.Add(numbers);
 
-            // assert
-            int sum = nr1 + nr2;
-            Assert.Equal(sum, result);
-        }
+        //    // assert
+        //    int sum = nr1 + nr2;
+        //    Assert.Equal(sum, result);
+        //}
 
         //Many single or multi-char delimiters can be defined (each wrapped in square brackets)
     }
