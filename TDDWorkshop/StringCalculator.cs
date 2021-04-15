@@ -35,7 +35,6 @@ namespace TDDWorkshop
             }
 
             string[] nrs = numbers.Split(delimiters.ToArray(), StringSplitOptions.RemoveEmptyEntries);
-
             int sum = 0;
             foreach (string nr in nrs)
             {
